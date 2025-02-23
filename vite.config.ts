@@ -21,6 +21,7 @@ export default defineConfig(({ mode })=> (
       globals: true,
       env: loadEnv(mode, process.cwd(), ''),
       environment: 'jsdom',
-    }
+    },
+    base: ""
   }
 ))
